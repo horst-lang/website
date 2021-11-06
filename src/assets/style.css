@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;500&family=Oswald:wght@600;700&family=Roboto&family=Ubuntu&display=swap');
+
+:root{
+    --primary1: #14213D;
+    --primary2: #E5E5E5;
+    --primary3: #FCA311;
+    --secondary1: #000000;
+    --secondary2: #FFFFFF;
+    --secondary3: #0A111F;
+    --secondary4: #0F192E;
+    --secondary5: #050910;
+    --hovers1: rgb(170, 170, 170);
+}
+hlight {
+    color: var(--primary3);
+}
+body {
+    background-color: var(--primary1);
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Navbar Start */
+    #navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: var(--secondary4);
+        font-family: "Ubuntu";
+    }
+    #navbar li {
+        float: left;
+    }
+    #navbar li a {
+        display: block;
+        color: var(--secondary2);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    #navbar li a:hover:not(.active) {
+        background-color: var(--secondary5);
+    }
+    #navbar .active {
+        background-color: var(--primary3);
+    }
+/* Navbar end */
+
+/* Title start */
+#title {
+    text-align: center;
+    color: var(--primary2);
+    margin-bottom: 50px;
+}
+#title h1 {
+    font-size: 100px;
+    font-family: "Oswald";
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+#title h2 {
+    font-size: 30px;
+    font-family: "Roboto";
+}
+#title a {
+    text-decoration: none;
+    border: 2px solid var(--primary2);
+    border-radius: 5px;
+    font-size: 30px;
+    color: var(--primary2);
+    font-family: "Ubuntu";
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+#title a:hover {
+    color: var(--primary3);
+    border-color: var(--primary3);
+}
+/* Title end */
+
+/* About start */
+#about {
+    background-color: var(--primary2);
+    color: var(--secondary4);
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 1px;
+}
+#about h1 {
+    font-family: "Oswald";
+    font-size: 60px;
+    text-decoration: underline;
+}
+#about p {
+    font-family: "Ubuntu";
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+}
+/* About end */
+
+/* Server count start */
+#servercount {
+    color: var(--primary2);
+    text-align: center;
+    margin-bottom: 200px;
+}
+#servercount h1 {
+    font-size: 100px;
+    font-family: "Heebo";
+    margin-bottom: -50px;
+    letter-spacing: -5px;
+    margin-top: -40px;
+}
+#servercount h2 {
+    font-family: "Ubuntu";
+    font-size: 25px;
+}

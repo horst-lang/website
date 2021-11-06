@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;500&family=Oswald:wght@600;700&family=Roboto&family=Ubuntu&display=swap');
+
+:root{
+    --primary1: #14213D;
+    --primary2: #E5E5E5;
+    --primary3: #FCA311;
+    --tagcolor: rgb(156, 156, 156);
+    --border: rgb(31, 31, 31);
+    --p3hover: #b9770c;
+}
+body {
+    background-color: var(--primary1);
+    text-align: center;
+}
+h1 {
+    font-family: "Heebo";
+    color: var(--primary2);
+    font-size: 70px;
+}
+.card {
+    background-color: var(--primary3);
+    display: inline-block;
+    border-radius: 50px;
+    
+}
+.card img {
+    margin-top: 50px;
+    border-radius: 200px;
+    width: 75%;
+    transition: .1s ease;
+    border: 15px solid var(--border);
+}
+.card:hover img {
+    border-radius: 75px;
+}
+.card h1 {
+    font-family: "Ubuntu";
+    font-size: 50px;
+}
+.card h1 a {
+    font-size: 30px;
+    color: var(--tagcolor);
+}
+.card h2 {
+    font-family: "Roboto";
+    color: var(--primary2);
+    margin-top: -20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+button {
+    margin-top: 100px;
+    font-size: 30px;
+    border: 6px solid var(--border);
+    border-radius: 50px;
+    color: var(--primary2);
+    background-color: var(--primary3);
+}
+button:hover {
+    cursor: pointer;
+    background-color: var(--p3hover);
+}
