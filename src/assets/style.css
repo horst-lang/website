@@ -57,9 +57,9 @@ html {
     font-size: 100px;
     font-family: "Oswald";
     margin-top: 1px;
-    margin-bottom: 5px;
 }
 #title h2 {
+    margin-top: -50px;
     font-size: 30px;
     font-family: "Roboto";
 }

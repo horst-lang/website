@@ -7,6 +7,7 @@
     --tagcolor: rgb(156, 156, 156);
     --border: rgb(31, 31, 31);
     --p3hover: #b9770c;
+    --p3hover2: #e09418;
 }
 body {
     background-color: var(--primary1);
@@ -29,6 +30,9 @@ h1 {
     width: 75%;
     transition: .1s ease;
     border: 15px solid var(--border);
+}
+.card:hover {
+    background-color: var(--p3hover2);
 }
 .card:hover img {
     border-radius: 75px;
