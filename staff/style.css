@@ -22,6 +22,8 @@ h1 {
     background-color: var(--primary3);
     display: inline-block;
     border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 .card img {
